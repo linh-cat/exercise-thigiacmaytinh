@@ -1,6 +1,9 @@
 import cv2 as cv
 
-img = cv.imread("image/image1.jpg")
+image_name = input("Image Name: ")
+
+img = cv.imread(image_name)
+
 cv.imshow("anh goc: ", img)
 cv.waitKey(4)
 
